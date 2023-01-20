@@ -68,9 +68,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "Gerber Files/")
     )
   )
 
@@ -81,7 +81,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" (layer "F.Cu")
     (tedit 5A19A429) (tstamp 120480d6-6697-432e-a99e-f11e576939d4)
-    (at 135.89 85.09 90)
+    (at 140.97 81.28 90)
     (descr "Through hole angled socket strip, 1x03, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole angled socket strip THT 1x03 2.54mm single row")
     (property "Sheetfile" "CANTerm-Female-SMD.kicad_sch")
@@ -168,7 +168,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 58b09982-63f0-4b2c-828f-70f1cf37bb46)
-    (at 138.415 81.28)
+    (at 143.495 77.47)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "CANTerm-Female-SMD.kicad_sch")
@@ -208,14 +208,31 @@
     )
   )
 
-  (gr_line (start 143.51 96.52) (end 143.51 78.74) (layer "Edge.Cuts") (width 0.1) (tstamp 02e89ef1-f3c0-473c-b095-8bc25a753c7d))
-  (gr_line (start 133.35 78.74) (end 133.35 96.52) (layer "Edge.Cuts") (width 0.1) (tstamp 1d28fd70-ae7e-4151-9724-4c2ce1a8abaa))
-  (gr_line (start 143.51 78.74) (end 133.35 78.74) (layer "Edge.Cuts") (width 0.1) (tstamp 338ee762-9d98-4001-bca6-aed90e1e9a78))
-  (gr_line (start 133.35 96.52) (end 143.51 96.52) (layer "Edge.Cuts") (width 0.1) (tstamp 9e700147-3be6-40e1-a7fe-ebae35bf75f5))
+  (gr_line (start 148.59 92.71) (end 148.59 74.93) (layer "Edge.Cuts") (width 0.1) (tstamp 02e89ef1-f3c0-473c-b095-8bc25a753c7d))
+  (gr_line (start 138.43 74.93) (end 138.43 92.71) (layer "Edge.Cuts") (width 0.1) (tstamp 1d28fd70-ae7e-4151-9724-4c2ce1a8abaa))
+  (gr_line (start 148.59 74.93) (end 138.43 74.93) (layer "Edge.Cuts") (width 0.1) (tstamp 338ee762-9d98-4001-bca6-aed90e1e9a78))
+  (gr_line (start 138.43 92.71) (end 148.59 92.71) (layer "Edge.Cuts") (width 0.1) (tstamp 9e700147-3be6-40e1-a7fe-ebae35bf75f5))
+  (gr_text "CAN Terminate SMD to Female Dupont\ntauseefafraz.com" (at 143.51 83.82) (layer "B.SilkS") (tstamp 3c76e190-4686-4337-a7e7-1090e76dcb10)
+    (effects (font (size 0.3 0.3) (thickness 0.075)) (justify mirror))
+  )
 
-  (segment (start 135.89 82.8925) (end 135.89 85.09) (width 0.25) (layer "F.Cu") (net 1) (tstamp 58042d77-da1a-4884-aff9-426e25e0d641))
-  (segment (start 137.5025 81.28) (end 135.89 82.8925) (width 0.25) (layer "F.Cu") (net 1) (tstamp 7de85775-a96b-4c26-bc0b-f630eb542119))
-  (segment (start 140.97 82.9225) (end 140.97 85.09) (width 0.25) (layer "F.Cu") (net 3) (tstamp cd39eec6-b437-4e9f-b9f0-a2a5f39c4b0f))
-  (segment (start 139.3275 81.28) (end 140.97 82.9225) (width 0.25) (layer "F.Cu") (net 3) (tstamp e72f5592-4779-4690-9f5b-a8dc722b2584))
+  (segment (start 140.97 79.0825) (end 140.97 81.28) (width 0.25) (layer "F.Cu") (net 1) (tstamp 58042d77-da1a-4884-aff9-426e25e0d641))
+  (segment (start 142.5825 77.47) (end 140.97 79.0825) (width 0.25) (layer "F.Cu") (net 1) (tstamp 7de85775-a96b-4c26-bc0b-f630eb542119))
+  (segment (start 146.05 79.1125) (end 146.05 81.28) (width 0.25) (layer "F.Cu") (net 3) (tstamp cd39eec6-b437-4e9f-b9f0-a2a5f39c4b0f))
+  (segment (start 144.4075 77.47) (end 146.05 79.1125) (width 0.25) (layer "F.Cu") (net 3) (tstamp e72f5592-4779-4690-9f5b-a8dc722b2584))
 
+  (group "" (id 72894d8f-7904-4cb5-a71b-97e0f57ac094)
+    (members
+      02e89ef1-f3c0-473c-b095-8bc25a753c7d
+      120480d6-6697-432e-a99e-f11e576939d4
+      1d28fd70-ae7e-4151-9724-4c2ce1a8abaa
+      338ee762-9d98-4001-bca6-aed90e1e9a78
+      58042d77-da1a-4884-aff9-426e25e0d641
+      58b09982-63f0-4b2c-828f-70f1cf37bb46
+      7de85775-a96b-4c26-bc0b-f630eb542119
+      9e700147-3be6-40e1-a7fe-ebae35bf75f5
+      cd39eec6-b437-4e9f-b9f0-a2a5f39c4b0f
+      e72f5592-4779-4690-9f5b-a8dc722b2584
+    )
+  )
 )

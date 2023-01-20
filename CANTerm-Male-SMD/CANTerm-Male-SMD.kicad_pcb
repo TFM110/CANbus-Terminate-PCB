@@ -68,9 +68,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "Gerber Files/")
     )
   )
 
@@ -216,6 +216,9 @@
   (gr_line (start 134.62 107.95) (end 144.78 107.95) (layer "Edge.Cuts") (width 0.1) (tstamp 9772c7af-9108-4019-8695-3d1c9d1c1b29))
   (gr_line (start 144.78 90.17) (end 134.62 90.17) (layer "Edge.Cuts") (width 0.1) (tstamp d469461a-3b82-4fb0-988b-f0fded1abf32))
   (gr_line (start 144.78 107.95) (end 144.78 90.17) (layer "Edge.Cuts") (width 0.1) (tstamp d5fff2d2-cc39-4cbe-92ac-2d55f4c99b42))
+  (gr_text "CAN Terminate SMD to Female Dupont\ntauseefafraz.com" (at 139.7 99.06) (layer "B.SilkS") (tstamp f5258a53-fca7-4899-9de2-bd6aae6fdf2d)
+    (effects (font (size 0.3 0.3) (thickness 0.075)) (justify mirror))
+  )
 
   (segment (start 140.6125 92.71) (end 142.225 94.3225) (width 0.25) (layer "F.Cu") (net 1) (tstamp 8e1b5beb-7c7f-4230-a29d-8613e8aa4bcd))
   (segment (start 142.225 94.3225) (end 142.225 96.52) (width 0.25) (layer "F.Cu") (net 1) (tstamp 90702ae4-4a52-4533-963d-f6088bbed6af))
